@@ -1,4 +1,7 @@
 ## Python Network Intrusion Detection System (NIDS) with Deep Packet Inspection
+🚀 Python-based Deep Packet Inspection (DPI) Engine  
+🔍 Features anomaly detection, risk scoring, and SNI extraction  
+📦 Built for network traffic analysis using PCAP files
 
 ### Project Overview
 
@@ -9,7 +12,6 @@ The system processes PCAP files, tracks TCP connections, performs basic deep pac
 The final output is a structured, human-readable security report, with optional JSON export for further automated processing.
 
 The goal of this project is to implement and understand core IDS detection concepts in a clean and extensible architecture rather than replicate full-scale enterprise security products.
-
 ---
 
 ### Architecture Overview
@@ -171,5 +173,6 @@ SRC                   DST                     PKTS   BYTES   RISK   LEVEL
 - Enhance anomaly detection using time-based thresholds.
 - Support live packet capture in addition to PCAP analysis.
 - Add unit tests and CI integration.
+
 
 ---
